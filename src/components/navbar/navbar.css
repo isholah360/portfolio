@@ -1,0 +1,16 @@
+.navbar{
+    color: #FFF;
+    right: 5rem;
+    position: absolute;
+    top: 3rem;
+}
+.navbar ul{
+   display: flex; 
+   color: #FFF;
+   justify-content: space-between;
+}
+.navbar ul li{
+    margin-left: 1.2rem;
+    font-size: 1.2rem;
+    list-style: none;
+ }
