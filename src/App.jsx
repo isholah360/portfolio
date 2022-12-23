@@ -1,18 +1,21 @@
 import React from 'react'
 import './App.css'
+import {Routes, Route} from 'react-router-dom'
+import {Resume, Homepage, Portfolio, About, Blog, Contact} from './page';
+import Abouts from './abouts';
 
 
-import {Resume, Homepage, Portfolio, About, Blog, Contact} from './page'
+
 function App() {
   return (
     <div className="App">
         <>
-          <Homepage/>
-          <About/>
-          <Resume/>
-          <Blog/>
-          <Contact/>
-          <Portfolio/>
+             <Homepage/>
+         <Routes>
+            <Route path='/resume' element={<Resume/>}/>
+            <Route path='/abouts' element={<Abouts/>}/>
+         </Routes>
+         
         </>
     </div>
   )

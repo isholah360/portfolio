@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@1000&family=Questrial&display=swap');
 .bg-bg{
     background-color: rgb(16,16,16);
     height: 100vh;
@@ -36,6 +36,7 @@
 .name{
     font-size: 6rem;
     font-weight: bolder;  
+    font-family: 'Mulish', sans-serif;
 }
 .thedev{
     font-size: 2.5rem;
@@ -43,7 +44,8 @@
     display: flex;
     gap: 10px;
     text-align: center;
-    margin-left: 7rem;
+    margin-left: 10rem;
+    font-family: 'Questrial', sans-serif;
 }
 
 .nodes{

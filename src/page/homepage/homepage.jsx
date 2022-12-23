@@ -4,6 +4,8 @@ import gsap from 'gsap';
 import { Power3 } from 'gsap/src/index';
 import { TypeAnimation } from 'react-type-animation';
 import Navbar from '../../components/navbar/navbar';
+import Content from '../../components/headcontent/content';
+import Linksa from '../../linksa';
 
 function Homepage() {
 
@@ -56,39 +58,12 @@ function Homepage() {
         </div>
 
             <div className="bg-img">
-                  <div className="headercontent">
-                    <div className="name">
-                      Eshola Duro
-                    </div>
-                    <div className="thedev">
-                      <div>I'm a</div>
-                        <div>
-                            <TypeAnimation
-                                sequence={[
-                                  'Developer', 
-                                  2500, 
-                                  'Freelancer', 
-                                  2500, 
-                                  'Designer', 
-                                  2500,
-                                  () => {
-                                    console.log('Done typing!'); 
-                                  }
-                                ]}
-                                wrapper="div"
-                                speed= {5}
-                                deletionSpeed={7}
-                                cursor={true}
-                                repeat={Infinity}
-                                style={{ fontSize: '1em' }}
-                              />
-                        </div>
-                      </div>
-                  </div>
+                 <Content/>
+                 <Linksa/>
             </div>
                  <div className="social-media">
-                    <img className='media' src="/assets/instagram.png" alt="" />
-                    <img className='media' src="/assets/facebook.png" alt="" />
+                    <img className='media' src="assets/instagram.png" alt="" />
+                    <img className='media' src="assets/facebook.png" alt="" />
                     <img className='media' src="/assets/twitter.png" alt="" />
                     <img className='media' src="/assets/github.png" alt="" />
                     <img className='media' src="/assets/linkedin-logo.png" alt="" />
