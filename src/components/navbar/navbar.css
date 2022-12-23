@@ -3,6 +3,7 @@
     right: 5rem;
     position: absolute;
     top: 3rem;
+    font-family: 'Questrial', sans-serif;
 }
 .navbar ul{
    display: flex; 

@@ -1,16 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
 .bg-bg{
-    background-color: rgba(0, 0, 0, 0.98);
+    background-color: rgb(16,16,16);
     height: 100vh;
     width: 100vw;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-.bg-img{
-    background-image: url(C:\Users\HP\Desktop\newproject\port\src\assets\to.png);
+    background-image: url(C:\Users\HP\Desktop\newproject\port\src\assets\mg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+  }
+.bg-img{
+    /* background-image: url(C:\Users\HP\Desktop\newproject\port\src\assets\to1.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
     height: 100vh;
     width: 45vw;
     position: absolute;
@@ -19,12 +24,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .headercontent{
     color: white;
     text-align: center;
     margin-left: -35rem;
+    font-family: 'Questrial', sans-serif;
 }
 .name{
     font-size: 6rem;
@@ -87,11 +94,12 @@
     flex-direction: row;
 }
 .writer{
-    font-size: 22rem;
+    font-size: 20rem;
     position: absolute;
     color: white;
     z-index: 100;
     margin-top: -30px;
+    font-family: 'Questrial', sans-serif;
 }
 .social-media{
    position: absolute;

@@ -58,7 +58,7 @@ function Homepage() {
             <div className="bg-img">
                   <div className="headercontent">
                     <div className="name">
-                      Ishola Duro
+                      Eshola Duro
                     </div>
                     <div className="thedev">
                       <div>I'm a</div>
