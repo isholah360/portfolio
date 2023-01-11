@@ -63,7 +63,7 @@ function Homepage() {
             </div>
                  <div className="social-media">
                     <img className='media' src="assets/instagram.png" alt="" />
-                    <img className='media' src="assets/facebook.png" alt="" />
+                    <img className='media' src="assets/twitter.png" alt="" />
                     <img className='media' src="/assets/twitter.png" alt="" />
                     <img className='media' src="/assets/github.png" alt="" />
                     <img className='media' src="/assets/linkedin-logo.png" alt="" />
